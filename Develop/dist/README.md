@@ -1,8 +1,8 @@
-# generate Readme
+# 
 
 ## Description
 
-no
+
 
 ## Table of Contents
 
@@ -15,25 +15,27 @@ no
 
 ## Installation
 
-npm i
+
 
 ## Usage
 
-magic
+
 
 ## License
 
+![badge](https://img.shields.io/badge/license-fuck}-blue)
+
 ## Contributing
 
-nothing
+
 
 ## Tests
 
-npm test
+
 
 ## Questions
 
-If you have an questions feel free to contact me via [Email](dsapione@gmail.com)
+If you have an questions feel free to contact me via [Email]()
 
-[GitHub](https://github.com/dsapione)
+[GitHub](https://github.com/)
 
