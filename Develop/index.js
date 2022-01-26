@@ -8,81 +8,49 @@ const questions = [
 	{
 		type: 'input',
 		name: 'title',
-		message: 'What is the title?',
-		validate: titleInput => {
-			if (titleInput) {
-				return true;
-			} else {
-				console.log('Please enter the title!');
-				return false;
-			}
-		}
+		message: "What is this project's title?"
 	},
 	{
 		type: 'input',
 		name: 'email',
-		message: 'What is your email?',
-		validate: emailInput => {
-			if (emailInput) {
-				return true;
-			} else {
-				console.log('Please enter email address!');
-				return false;
-			}
-		}
+		message: 'What is your email?'
 	},
 	{
 		type: 'input',
 		name: 'github',
-		message: 'What is your GitHub username?',
-		validate: username => {
-			if (username) {
-				return true;
-			} else {
-				console.log('Please enter your username!');
-				return false;
-			}
-		}
+		message: 'What is your GitHub username?'
 	},
-	// {
-	// 	type: '',
-	// 	name: '',
-	// 	message: '',
-	// 	validate: cb => {
-	// 		if (cb) {
-	// 			return true;
-	// 		} else {
-	// 			console.log('');
-	// 			return false;
-	// 		}
-	// 	}
-	// },
-	// {
-	// 	type: '',
-	// 	name: '',
-	// 	message: '',
-	// 	validate: cb => {
-	// 		if (cb) {
-	// 			return true;
-	// 		} else {
-	// 			console.log('');
-	// 			return false;
-	// 		}
-	// 	}
-	// },
-	// {
-	// 	type: '',
-	// 	name: '',
-	// 	message: '',
-	// 	validate: cb => {
-	// 		if (cb) {
-	// 			return true;
-	// 		} else {
-	// 			console.log('');
-	// 			return false;
-	// 		}
-	// 	}
-	// },
+	{
+		type: 'input',
+		name: 'description',
+		message: 'Please write a brief description of your project'
+	},
+	{
+		type: 'list',
+		name: 'license',
+		message: 'What license will be used?',
+		choices: ['fuck', 'you', 'dan', 'you', 'none']
+	},
+	{
+		type: 'input',
+		name: 'usage',
+		message: 'How does your project operate?'
+	},
+	{
+		type: 'input',
+		name: 'installation',
+		message: 'How do you install your project?'
+	},
+	{
+		type: 'input',
+		name: 'contributing',
+		message: 'What is required for someone to contribute to your project?'
+	},
+	{
+		type: 'input',
+		name: 'tests',
+		message: 'How can you run tests?'
+	},
 ]
 
 // TODO: Create a function to write README file

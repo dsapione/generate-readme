@@ -1,6 +1,8 @@
-# dan
+# generate Readme
 
 ## Description
+
+no
 
 ## Table of Contents
 
@@ -13,13 +15,21 @@
 
 ## Installation
 
+npm i
+
 ## Usage
+
+magic
 
 ## License
 
 ## Contributing
 
+nothing
+
 ## Tests
+
+npm test
 
 ## Questions
 

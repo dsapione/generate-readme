@@ -16,6 +16,8 @@ function generateMarkdown(data) {
 
 ## Description
 
+${data.description}
+
 ## Table of Contents
 
 * [Installation](#Installation)
@@ -27,13 +29,21 @@ function generateMarkdown(data) {
 
 ## Installation
 
+${data.installation}
+
 ## Usage
+
+${data.usage}
 
 ## License
 
 ## Contributing
 
+${data.contributing}
+
 ## Tests
+
+${data.tests}
 
 ## Questions
 
