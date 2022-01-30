@@ -26,10 +26,23 @@ const questions = [
 		message: 'Please write a brief description of your project'
 	},
 	{
+		type: 'confirm',
+		name: 'confirmAbout',
+		message: 'Will this project have a license?',
+		default: true
+	},
+	{
 		type: 'list',
 		name: 'license',
 		message: 'What license will be used?',
-		choices: ['MIT', 'ISC', 'Apache', 'none']
+		choices: ['MIT', 'ISC', 'Apache'],
+		when: ({ confirmAbout }) => {
+			if (confirmAbout) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 	},
 	{
 		type: 'input',
@@ -39,7 +52,7 @@ const questions = [
 	{
 		type: 'input',
 		name: 'installation',
-		message: 'How do you install your project?'
+		message: 'Are there any installation instructions?'
 	},
 	{
 		type: 'input',
