@@ -14,11 +14,11 @@ Generates a readme based on user input. Allows you to choose what license you ne
 
 ## Installation
 
-Install dependencies by running npm i after cloning repo
+Install dependencies by running 'npm i' on the cmd line after cloning the repo.
 
 ## Usage
 
-Using inquirer to prompt the user questions about thier project's readme. Once built it will be displayed in the dist. folder.
+Run 'node index.js' on the cmd line to start the application which will then use inquirer to prompt questions about your project to generate the readme. Once built it will be displayed in the dist. folder.
 
 ## Contributing
 
