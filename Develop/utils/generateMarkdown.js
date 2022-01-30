@@ -70,9 +70,7 @@ ${data.tests}
 ## Questions
 
 If you have an questions feel free to contact me via [Email](${data.email})
-
-[GitHub](https://github.com/${data.github})
-
+and checkout my other projects on [GitHub](https://github.com/${data.github}).
 `;
 }
 

@@ -8,7 +8,6 @@ Generates a readme based on user input. Allows you to choose what license you ne
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -25,8 +24,11 @@ Using inquirer to prompt the user questions about thier project's readme. Once b
 
 Please follow best practices, consistant pull requests
 
+## Tests
+
+No tests at the moment.
+
 ## Questions
 
 If you have an questions feel free to contact me via [Email](dsapione@gmail.com)
-
-[GitHub](https://github.com/dsapione)
+and checkout my other projects on [GitHub](https://github.com/dsapione).
