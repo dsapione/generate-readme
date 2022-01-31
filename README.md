@@ -1,6 +1,6 @@
 # Generate README
 
-[![walkthrough video](./assets/images/screenshot.jpg)](./assets/videos/walkthrough.webm)
+[![walkthrough video](./assets/images/screenshot.jpg)](https://watch.screencastify.com/v/us5orrhxN8h61sd69x24)
 
 ## Description
 
