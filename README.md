@@ -1,5 +1,7 @@
 # Generate README
 
+[![walkthrough video](./assets/images/screenshot.jpg)](./assets/videos/walkthrough.webm)
+
 ## Description
 
 Generates a README.md based on user input. Allows you to choose what license you need to add to the readme and adds the appropriate badge.
