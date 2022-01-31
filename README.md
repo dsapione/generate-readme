@@ -1,8 +1,8 @@
-# Generate Readme
+# Generate README
 
 ## Description
 
-Generates a readme based on user input. Allows you to choose what license you need to add to the readme and adds the appropriate badge.
+Generates a README.md based on user input. Allows you to choose what license you need to add to the readme and adds the appropriate badge.
 
 ## Table of Contents
 
@@ -14,15 +14,15 @@ Generates a readme based on user input. Allows you to choose what license you ne
 
 ## Installation
 
-Install dependencies by running 'npm i' on the cmd line after cloning the repo.
+You will need to have node.js installed, and run 'npm i' on the cmd line so inquirer will download after you clone the repo.
 
 ## Usage
 
-Run 'node index.js' on the cmd line to start the application which will then use inquirer to prompt questions about your project to generate the readme. Once built it will be displayed in the dist. folder.
+Run 'node index.js' on the cmd line to start the application which will then use inquirer to prompt questions about your project to generate the README.md. Once built it will be displayed in the dist. folder.
 
 ## Contributing
 
-Please follow best practices, consistant pull requests
+Please follow best practices.
 
 ## Tests
 

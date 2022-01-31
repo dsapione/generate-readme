@@ -52,7 +52,7 @@ const questions = [
 	{
 		type: 'input',
 		name: 'installation',
-		message: 'Are there any installation instructions?'
+		message: 'What are the installation instructions?'
 	},
 	{
 		type: 'input',
